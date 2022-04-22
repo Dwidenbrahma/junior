@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <link rel="stylesheet" href="/css/mobil.css"> -->
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+      <!-- navigation section -->
+  <nav>
+    <div class="nav-bar">
+
+      <!-- Left Side Navigation -->
+      <div class="left-nav">
+      <h1>snap</h1>
+      <div class="inside-left-nav">
+     
+        <p id="Features"> Features</p>
+        <img class="arrow-img" src="images/icon-arrow-down.svg" alt="up-arrow">
+        <!-- Extended Card -->
+        <div id="ex-card-1" class="extended-card">
+          <img src="images/icon-todo.svg" alt="to-doList">
+          <p>Todo List</p>
+          <img src="images/icon-calendar.svg" alt="calender">
+          <p>Calender</p>
+          <img src="images/icon-reminders.svg" alt="reaminder">
+          <p>Remainders</p>
+          <img src="images/icon-planning.svg" alt="planning">
+          <p>Planning</p>
+        </div>
+        <p id="Company">Company</p>
+        <img class="arrow-img"  src="images/icon-arrow-down.svg" alt="up-arrow">
+
+         <div id="ex-card-2" class="extended-card-2">
+           <p>History</p>
+           <p>Our team</p>
+           <p>Blog</p>
+        </div>
+        <p>Career</p>
+        <p>About</p>
+      </div>
+    </div>
+    <!-- Mobile Expand -->
+    <div id = "mobile-expand" class="mobile-expand">
+      <img  id="close-icon" class="close-icon" src="images/icon-close-menu.svg" alt="close-icon">
+      <div class="mobile-inside-nav">
+     
+        <p id="change"> Features <img class="arrow-img" src="images/icon-arrow-down.svg" alt="up-arrow"></p>
+        
+        <!-- Extended Card -->
+        <div id="mobilew" class="mobile-extended-card">
+          <img src="images/icon-todo.svg" alt="to-doList">
+          <p>Todo List</p>
+          <img src="images/icon-calendar.svg" alt="calender">
+          <p>Calender</p>
+          <img src="images/icon-reminders.svg" alt="reaminder">
+          <p>Remainders</p>
+          <img src="images/icon-planning.svg" alt="planning">
+          <p>Planning</p>
+        </div>
+        <p id="change"> Company <img class="arrow-img"  src="images/icon-arrow-down.svg" alt="up-arrow"></p>
+        
+         <div id="company" class="mobile-extended-card-2">
+           <p>History</p>
+           <p>Our team</p>
+           <p>Blog</p>
+        </div>
+        <p>Career</p>
+        <p>About</p>
+      </div>
+    </div>
+
+   <!-- Right Side Navigation -->
+
+      <div class="right-nav">
+        <button class="log">Login</button>
+        <button class="reg">Register</button>
+
+      </div>
+      <div class="menu-icon">
+        <img id="menu" src="images/icon-menu.svg" alt="icon-menu">
+        <!-- <img src="/images/icon-close-menu.svg" alt="icon-close-menu"> -->
+  
+      </div>
+      
+    </div>
+  </nav>
+
+  <!-- main -->
+  <main>
+    <div class="main-right-container">
+    <h1>Make <br>remote work</h1>
+    <p>
+      Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.
+    </p>
+
+    <button >Learn more</button>
+    <div class="image-container">
+      <img src="images/client-databiz.svg" alt="data-bits">
+      <img src="images/client-audiophile.svg" alt="client-audiophile">
+      <img src="images/client-meet.svg" alt="client-meet">
+      <img src="images/client-maker.svg" alt="client-maker">
+    </div>
+
+
+    </div>
+    <div class="main-left-container">
+      <img id="desktop" src="images/image-hero-desktop.png" alt="hero-desktop">
+      <img id="mobile" src="images/image-hero-mobile.png" alt="hero-mobile">
+    </div>
+
+  </main>
+
+  <script src="Script/script.js"></script>
+
+</body>
+</html>
